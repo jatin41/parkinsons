@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score
 import streamlit as st
 
 # loading the data from csv file to a Pandas DataFrame
-parkinsons_data = pd.read_csv('/Users/jatinagrawal/__pycache__/parkinsons (1).csv')
+parkinsons_data = pd.read_csv('parkinsons (1).csv')
 
 # printing the first 5 rows of the dataframe
 parkinsons_data.head()
